@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100&display=swap');
+
+.texto-menor{
+    font-size:0.8rem;
+}
+.divs-facilidade{
+    width: 20.313rem;
+}
+.rodape{
+    text-align: center;
+    color: #ffff;
+    background-color: #000;
+    font-family: "Inter", sans-serif ;
+    font-size: 1.1rem;  
+}

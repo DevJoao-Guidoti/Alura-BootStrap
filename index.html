@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./Assets//Favicon-64px.png" type="image/x-icon">
+  <title>Meteora</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-black navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h1 class="m-0"><img class="d-block" src="./Assets/Desktop/Logo desktop.png" alt="Logo da loja Meteora"></h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lojas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Novidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Promoções</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-4 rounded-0" type="search" placeholder="Procurar um produto"
+            aria-label="Search" />
+          <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img-fluid d-md-none w-100" src="./Assets//Mobile/Banner1 - Mobile.png" alt="">
+        <img class="img-fluid d-none d-md-block d-xl-none w-100" src="./Assets//Tablet/Banner1 - Tablet.png" alt="">
+        <img class="img-fluid d-none d-xl-block w-100" src="./Assets//Desktop/Banner1.png" alt="">
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid d-md-none w-100" src="./Assets//Mobile/Banner2 - mobile.png" alt="">
+        <img class="img-fluid d-none d-md-block d-xl-none w-100" src="./Assets//Tablet/Banner2--tablet.png" alt="">
+        <img class="img-fluid d-none d-xl-block w-100" src="./Assets//Desktop/Banner2 - desktop.png" alt="">
+        <div class="carousel-caption">
+          <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+          <p class="fs-4">Estilo e qualidade para durar.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid d-md-none w-100" src="./Assets//Mobile/Banner3 - mobile.png" alt="">
+        <img class="img-fluid d-none d-md-block d-xl-none w-100" src="./Assets//Tablet/Banner3--tablet.png" alt="">
+        <img class="img-fluid d-none d-xl-block w-100 " src="./Assets//Desktop/Banner3 - desktop.png" alt="">
+        <div class="carousel-caption">
+          <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+          <p class="fs-4">Alto impacto visual, baixo impacto ambiental!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <h2 class="text-center my-3 my-xl-5">Busque por categoria: </h2>
+  <div>
+    <div class="container row mx-auto g-4">
+
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="card rounded-0 border-0">
+          <img class=" img-fluid d-md-none" src="./Assets//Mobile/Categorias/Categoria Bolsas.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets//Tablet/Categorias/Categoria Bolsas.png"
+            alt="">
+          <img class="img-fluid d-none d-xl-block" src="./Assets//Desktop/Categorias/Categoria Bolsa.png" alt="">
+          <div class="card-header bg-black ">
+            <p class="text-center text-white ">
+              Bolsas
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="card rounded-0 border-0">
+          <img class="img-fluid d-md-none" src="./Assets\Mobile\Categorias\Categoria calcados.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets\Tablet\Categorias\Categoria calcados.png"
+            alt="">
+          <img class="img-fluid d-none d-xl-block" src="./Assets\Desktop\Categorias\Categoria Calcados.png" alt="">
+          <div class="card-header bg-black">
+            <p class="text-center text-white">
+              Calçados
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="card rounded-0 border-0">
+          <img class="img-fluid d-md-none " src="./Assets//Mobile/Categorias/Categoria calças.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets//Tablet/Categorias/Categoria calças.png"
+            alt="">
+          <img class="img-fluid d-none d-xl-block" src="./Assets//Desktop/Categorias/Categoria calça.png" alt="">
+          <div class="card-header bg-black">
+            <p class="text-center text-white">
+              Calças
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="card rounded-0 border-0">
+          <img class="img-fluid d-md-none " src="./Assets//Mobile/Categorias/Categoria camiseta.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets//Tablet/Categorias/Categoria camiseta.png"
+            alt="">
+          <img class="img-fluid d-none d-xl-block" src="./Assets//Desktop/Categorias/Categoria camiseta.png" alt="">
+          <div class="card-header bg-black">
+            <p class="text-center text-white">
+              Camisas
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="card  rounded-0 border-0">
+          <img class="img-fluid d-md-none " src="./Assets//Mobile/Categorias/Categoria Casacos.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets//Tablet/Categorias/Categoria casacos.png"
+            alt="">
+          <img class="img-fluid d-none d-xl-block" src="./Assets//Desktop/Categorias/Categoria casacos.png" alt="">
+          <div class="card-header bg-black">
+            <p class="text-center text-white">
+              Casacos
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 col-xl-2">
+        <div class="card rounded-0 border-0">
+          <img class="img-fluid d-md-none " src="./Assets//Mobile/Categorias/Categoria óculos.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets//Tablet/Categorias/Categoria óculos.png"
+            alt="">
+          <img class="img-fluid d-none d-xl-block" src="./Assets//Desktop/Categorias/Categoria óculos.png" alt="">
+          <div class="card-header bg-black">
+            <p class="text-center text-white">
+              Óculos
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-center my-3 my-xl-5">Produtos que estão Bombando !</h2>
+
+    <div class="container row mx-auto g-4">
+
+      <div class="col-12 col-md-6 col-xl-4 pb-4">
+        <div class="card h-100">
+          <img class="img-fluid d-md-none" src=".\Assets\Mobile\Imagens cards\Card bolsa.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets\Tablet\Imagens Cards\bolsa.png" alt="">
+          <img class="img-fluid d-none d-xl-block" src="./Assets\Desktop\Imagens Cards\Bolsa.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Bolsa Coringa</h5>
+            <p class="card-text">
+              Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!
+            </p>
+            <p>R$120,00</p>
+            <a href="#" class="btn btn-primary " style="background-color: #935ff3; border-color: #935ff3">Ver mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-4 pb-4">
+        <div class="card h-100">
+          <img class="img-fluid d-md-none" src="./Assets\Mobile\Imagens cards\Card calça.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets/Tablet/Imagens cards/Calça.png" alt="">
+          <img class="img-fluid d-none d-xl-block" src="./Assets/Desktop/Imagens Cards/Calça.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Calça Alfaiataria</h5>
+            <p class="card-text">
+              Modelo Wide Leg alfaiataria em linho. Uma peça de altíssima qualidade, exclusiva e pra vida toda!
+            </p>
+            <p>R$210,00</p>
+             <a href="#" class="btn btn-primary " style="background-color: #935ff3; border-color: #935ff3">Ver mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-4 pb-4">
+        <div class="card h-100">
+          <img class="img-fluid d-md-none" src="./Assets/Mobile/Imagens cards/Card camiseta.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets\Tablet\Imagens Cards\camiseta.png" alt="">
+          <img class="img-fluid d-none d-md-block " src="./Assets/Desktop/Imagens Cards/Camiseta.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Camiseta Conforto</h5>
+            <p class="card-text">
+              Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.
+            </p>
+            <p>R$70,00</p>
+            <a href="#" class="btn btn-primary" class="btn btn-primary "
+              style="background-color: #935ff3; border-color: #935ff3">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 pb-4">
+        <div class="card h-100">
+          <img class="img-fluid d-md-none" src="./Assets/Mobile/Imagens cards/Card jaqueta jeans.png" alt="">
+          <img claas="img-fluid d-none d-md-block" src="./Assets/Tablet/Imagens Cards/jaqueta jeans.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets/Desktop/Imagens Cards/Jaqueta.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Jaqueta Jeans</h5>
+            <p class="card-text">
+              Modelo unissex oversized com gola de camurça. Atemporal e autêntica!
+            </p>
+            <p>R$150,00</p>
+            <a href="#" class="btn btn-primary" class="btn btn-primary "
+              style="background-color: #935ff3; border-color: #935ff3">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 pb-4">
+        <div class="card h-100">
+          <img class="img-fluid d-md-none" src="./Assets/Mobile/Imagens cards/Card tenis.png" alt="">
+          <img claas="img-fluid d-none d-md-block" src="./Assets/Tablet/Imagens Cards/tenis.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets/Desktop/Imagens Cards/Tenis.png" alt="">
+
+          <div class="card-body">
+            <h5 class="card-title">Tênis Chunky</h5>
+            <p class="card-text">
+              Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.
+            </p>
+            <p>R$250,00</p>
+            <a href="#" class="btn btn-primary" class="btn btn-primary "
+              style="background-color: #935ff3; border-color: #935ff3">Ver mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-4 pb-4">
+        <div class="card h-100">
+          <img class="img-fluid d-md-none" src="./Assets/Mobile/Imagens cards/Cards óculos.png" alt="">
+          <img claas="img-fluid d-none d-md-block" src="./Assets/Tablet/Imagens Cards/óculos.png" alt="">
+          <img class="img-fluid d-none d-md-block d-xl-none" src="./Assets/Desktop/Imagens Cards/óculos.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Óculos Redondo</h5>
+            <p class="card-text">
+              Armação metálica em grafite com lentes arredondadas. Sem erro!.
+            </p>
+            <p>R$120,00</p>
+            <a href="#" class="btn btn-primary" class="btn btn-primary "
+              style="background-color: #935ff3; border-color: #935ff3">Ver mais</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <section class="pb-4 bg-black">
+      <h2 class="text-center text-white">Conheça todas as nossas facilidades</h2>
+      <div class=" d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3 ">
+        <div class="divs-facilidades align-items-center  d-flex">
+          <div><i class="bi bi-x-diamond fs-1" style="color: #daff01"></i></div>
+          <div class="text-white">
+            <div class="ms-3 mb-1">PAGUE PELO PIX</div>
+            <div class="texto-menor ms-3">Ganhe 5% OFF em
+              pagamentos via PIX</div>
+          </div>
+        </div>
+        <div class="divs-facilidades align-items-center  d-flex">
+          <div><i class="bi bi-arrow-repeat fs-1" style="color: #daff01"></i></div>
+          <div class="text-white">
+            <div class="ms-3 mb-1">TROCA GRÁTIS</div>
+            <div class="texto-menor ms-3">Fique livre para trocar em até 30 dias.</div>
+          </div>
+        </div>
+        <div class="divs-facilidades align-items-center  d-flex">
+          <div><i class="bi bi-flower1 fs-1" style="color: #daff01"></i></div>
+          <div class="text-white">
+            <div class="ms-3 mb-1">SUSTENTABILIDADE</div>
+            <div class="texto-menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <form class="border border-secondary  my-3 my-xl-5 p-4 text-center">
+      <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+      <div class="input-group my-3">
+        <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail"
+          aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
+        <button type="button" id="button-addon2" class="btn btn-primary "
+          style="background-color: #935ff3; border-color: #935ff3">Enviar</button>
+      </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+</body>
+<footer class="rodape">
+  <p>
+    2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.
+  </p>
+</footer>
+
+</html>
